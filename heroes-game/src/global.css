@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'character names';
+    src: url('../fonts/PILOT_COMMAND.otf');
+}
+@font-face {
+    font-family: 'Titles';
+    src: url('../fonts/SSF4_ABUKET.woff');
+}

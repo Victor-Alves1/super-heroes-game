@@ -9,11 +9,16 @@ import ultronFullBody from '../images/marvel/ultron.png'
 import blackWidowFullBody from '../images/marvel/viuva-negra.png'
 
 const SelectedCharacter2 = () => {
-    return ( 
-    <div>
-
-    </div>
-    );
+    switch ("DoctorDoom"){
+        case ("capitanAmerica"):
+            return ( 
+                    <img src={captainAmericaFullBody} alt="" className='object-cover'/>
+            );
+        case ("DoctorDoom"):
+            return ( 
+                    <img src={doctorDoomFullBody} alt="" className='object-cover'/>
+            );
+            }
 }
  
 export default SelectedCharacter2;

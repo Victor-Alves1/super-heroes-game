@@ -13,15 +13,11 @@ const SelectedCharacter1 = () => {
     switch ("capitanAmerica"){
         case ("capitanAmerica"):
             return ( 
-                <div>
-                    <img src={captainAmericaFullBody} alt="" />
-                </div>
+                    <img src={captainAmericaFullBody} alt="" className='object-cover'/>
             );
         case ("DoctorDoom"):
             return ( 
-                <div>
-                    <img src={doctorDoomFullBody} alt="" />
-                </div>
+                    <img src={doctorDoomFullBody} alt="" className='object-cover'/>
             );
             }
     

@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import captainAmerica from '../images/marvel/capitao-america.jpg'
 import doctorDoom from '../images/marvel/doutor-doom.jpg'
 import fenix from '../images/marvel/fenix.jpg'
@@ -8,19 +9,52 @@ import thor from '../images/marvel/thor.jpg'
 import ultron from '../images/marvel/ultron.jpg'
 import blackWidow from '../images/marvel/viuva-negra.jpg'
 
-const MarvelCharacters = () => {
-    
+
+const MarvelCharacters = ({choosingCharacter}) => {
+
     return ( 
     <div>
-        <img src={thor} alt="" onClick={()=>selectedCharacter("Thor")} />
-        <img src={ironman} alt="" onClick={()=>selectedCharacter("Ironman")}/>
-        <img src={blackWidow} alt="" onClick={()=>selectedCharacter("BlackWidow")}/>
-        <img src={hulk} alt="" onClick={()=>selectedCharacter("Hulk")}/>
-        <img src={captainAmerica} alt="" onClick={()=>selectedCharacter("captainAmerica")}/>
-        <img src={ultron} alt="" onClick={()=>selectedCharacter("Ultron")}/>
-        <img src={doctorDoom} alt="" onClick={()=>selectedCharacter("DoctorDoom")}/>
-        <img src={nova} alt="" onClick={()=>selectedCharacter("Nova")}/>
-        <img src={fenix} alt="" onClick={()=>selectedCharacter("Fenix")}/>
+        <input type="radio" name="Character" id="ThorFrame" />
+        <input type="radio" name="Character" id="IronmanFrame" />
+        <input type="radio" name="Character" id="BlackWidowFrame" />
+        <input type="radio" name="Character" id="HulkFrame" />
+        <input type="radio" name="Character" id="captainAmericaFrame" />
+        <input type="radio" name="Character" id="UltronFrame" />
+        <input type="radio" name="Character" id="DoctorDoomFrame" />
+        <input type="radio" name="Character" id="NovaFrame" />
+        <input type="radio" name="Character" id="FenixFrame" />
+        
+        <div className="grid grid-cols-3 gap-2">
+            <label htmlFor="ThorFrame">
+                <img src={thor} alt="" onClick={()=>choosingCharacter("Thor")} className="border-4 border-slate-400 rounded-lg hover:border-8 hover:border-orange-500 "/>
+            </label>
+            
+            <label htmlFor="IronmanFrame">
+                <img src={ironman} alt="" onClick={()=>choosingCharacter("Ironman")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            <label htmlFor="BlackWidowFrame">
+                <img src={blackWidow} alt="" onClick={()=>choosingCharacter("BlackWidow")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            
+            <label htmlFor="HulkFrame">
+                <img src={hulk} alt="" onClick={()=>choosingCharacter("Hulk")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            <label htmlFor="captainAmericaFrame">
+                <img src={captainAmerica} alt="" onClick={()=>choosingCharacter("captainAmerica")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            <label htmlFor="UltronFrame">
+                <img src={ultron} alt="" onClick={()=>choosingCharacter("Ultron")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            <label htmlFor="DoctorDoomFrame">
+                <img src={doctorDoom} alt="" onClick={()=>choosingCharacter("DoctorDoom")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            <label htmlFor="NovaFrame">
+                <img src={nova} alt="" onClick={()=>choosingCharacter("Nova")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+            <label htmlFor="FenixFrame">
+                <img src={fenix} alt="" onClick={()=>choosingCharacter("Fenix")} className="border-4 border-slate-400 rounded-lg"/>
+            </label>
+        </div>
     </div>
     );
 }
