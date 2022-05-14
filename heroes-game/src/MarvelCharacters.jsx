@@ -87,7 +87,7 @@ const MarvelCharacters = ({choosingCharacter, changeCharactersUniverse, marvelUn
                 <img src={flash} alt="" onClick={()=>choosingCharacter("Flash")} className="border-4 border-slate-400 rounded-lg"/>
             </label>
             <label htmlFor="shazamFrame">
-                <img src={Shazam} alt="" onClick={()=>choosingCharacter("Shazam")} className="border-4 border-slate-400 rounded-lg"/>
+                <img src={shazam} alt="" onClick={()=>choosingCharacter("Shazam")} className="border-4 border-slate-400 rounded-lg"/>
             </label>
             <label htmlFor="DarkFrame">
                 <img src={dark} alt="" onClick={()=>choosingCharacter("Darkseid")} className="border-4 border-slate-400 rounded-lg"/>

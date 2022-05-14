@@ -99,8 +99,8 @@ const SelectedCharacter2 = (selectedSecondCharacterName) => {
             return ( 
                     <>
                         <img src={batmanFullBody} alt="" className='object-cover pb-12'/>
-                        <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                        <div className='w-full h-10 absolute bg-blue-600 py-1 bottom-0'></div>
+                        <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                        <div className='w-full h-10 absolute bg-neutral-600 py-1 bottom-0'></div>
                     </>
             );
         case ("Superman"):
@@ -108,23 +108,23 @@ const SelectedCharacter2 = (selectedSecondCharacterName) => {
                 <>
                     <img src={supermanFullBody} alt="" className='object-cover pb-12'
                     />
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                    <div className='w-full h-10 absolute bg-lime-600 py-1 bottom-0'></div>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                    <div className='w-full h-10 absolute bg-blue-600 py-1 bottom-0'></div>
                 </>
             );
         case ("WonderWoman"):
             return ( 
                     <>
                     <img src={wonderWomanFullBody} alt="" className='object-cover pb-12'/>
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                    <div className='w-full h-10 absolute bg-rose-600 py-1 bottom-0'></div>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                    <div className='w-full h-10 absolute bg-amber-600 py-1 bottom-0'></div>
                     </>
             );
         case ("Flash"):
             return ( 
                     <>
                     <img src={flashFullBody} alt="" className='object-cover pb-12'/>
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-red-600 py-1 bottom-0'></div>
                     </>
             );
@@ -133,16 +133,16 @@ const SelectedCharacter2 = (selectedSecondCharacterName) => {
                 <>
                     <img src={shazamFullBody} alt="" className='object-cover pb-12'
                     />
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                    <div className='w-full h-10 absolute bg-green-600 py-1 bottom-0'></div>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                    <div className='w-full h-10 absolute bg-amber-600 py-1 bottom-0'></div>
                 </>
             );
         case ("Darkseid"):
             return ( 
                     <>
                     <img src={darkFullBody} alt="" className='object-cover pb-12'/>
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                    <div className='w-full h-10 absolute bg-amber-600 py-1 bottom-0'></div>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                    <div className='w-full h-10 absolute bg-teal-700 py-1 bottom-0'></div>
                     </>
             );
         case ("Joker"):
@@ -150,24 +150,24 @@ const SelectedCharacter2 = (selectedSecondCharacterName) => {
                 <>
                     <img src={jokerFullBody} alt="" className='object-cover pb-12'
                     />
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                    <div className='w-full h-10 absolute bg-cyan-600 py-1 bottom-0'></div>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                    <div className='w-full h-10 absolute bg-lime-600 py-1 bottom-0'></div>
                 </>
             );
         case ("Harley Quinn"):
             return ( 
                     <>
                     <img src={harleyQuinnFullBody} alt="" className='object-cover pb-12'/>
-                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                    <div className='w-full h-10 absolute bg-slate-600 py-1 bottom-0'></div>
+                    <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                    <div className='w-full h-10 absolute bg-fuchsia-600 py-1 bottom-0'></div>
                     </>
             );
             case ("Raven"):
                 return ( 
                         <>
                         <img src={ravenFullBody} alt="" className='object-cover pb-12'/>
-                        <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
-                        <div className='w-full h-10 absolute bg-neutral-600 py-1 bottom-0'></div>
+                        <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedSecondCharacterName.selectedSecondCharacterName}`}</p>
+                        <div className='w-full h-10 absolute bg-slate-600 py-1 bottom-0'></div>
                         </>
                 )
             }
