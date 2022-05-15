@@ -8,9 +8,17 @@ module.exports = {
       },
 
       height: {
-        'characters': '70vh'
+        'characters': '70vh',
+        'maps' : '50vh'
       },
-    },
+      width: {
+        'littleMaps' : '3vw',
+        'largeMaps' : '10vw',
+      },
+      aspectRatio: {
+        '1/8': '1 / 8',
+      },
+      },
   },
   plugins: [],
 }

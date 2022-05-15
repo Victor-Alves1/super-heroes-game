@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ChooseAMap from './ChooseAMap'
-import MarvelCharacters from './MarvelCharacters'
+import Characters from './Characters'
 import SelectedCharacter1 from './SelectedCharacter1'
 import SelectedCharacter2 from './SelectedCharacter2'
 
@@ -42,11 +42,11 @@ function App() {
       {
         selectMap == false
         ?
-        <div className='w-1/3 my-auto'>
-          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "white", fontSize: "24pt", textShadow: '2px 0 0 orange'}}>
+        <div className='w-1/3 my-auto relative'>
+          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", '-webkit-text-stroke': '1px #f77a2c'}}>
             SELECT A CHARACTER
           </h1>
-          <MarvelCharacters 
+          <Characters 
             choosingCharacter={choosingCharacter}
             changeCharactersUniverse={changeCharactersUniverse}
             marvelUniverse={marvelUniverse}
@@ -54,10 +54,13 @@ function App() {
         </div>
         :
         <div className='w-1/3 my-auto'>
-          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "orange", fontSize: "24pt"}}>
+          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", '-webkit-text-stroke': '1px #f77a2c'}}>
             SELECT A MAP
           </h1>
+
           <ChooseAMap />
+
+          <a style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", '-webkit-text-stroke': '1px #f77a2c', display: 'block', cursor: 'pointer'}}>Confirm your map</a>
         </div>
       }
       
