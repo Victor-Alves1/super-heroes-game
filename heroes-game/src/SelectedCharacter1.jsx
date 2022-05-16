@@ -27,7 +27,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("captainAmerica"):
             return ( 
                 <>
-                    <img src={captainAmericaFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={captainAmericaFullBody} alt="Hero selected: Capitan America" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-blue-600 py-1 bottom-0'></div>
                 </>
@@ -35,7 +35,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("DoctorDoom"):
             return ( 
                 <>
-                    <img src={doctorDoomFullBody} alt="" className='object-cover pb-12'
+                    <img src={doctorDoomFullBody} alt="Hero selected: Doctor Doom" className='object-cover pb-12'
                     />
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-lime-600 py-1 bottom-0'></div>
@@ -44,7 +44,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Fenix"):
             return ( 
                     <>
-                    <img src={fenixFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={fenixFullBody} alt="Hero selected: Fenix" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-rose-600 py-1 bottom-0'></div>
                     </>
@@ -52,7 +52,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Ironman"):
             return ( 
                     <>
-                    <img src={ironmanFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={ironmanFullBody} alt="Hero selected: Ironman" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-red-600 py-1 bottom-0'></div>
                     </>
@@ -60,7 +60,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Hulk"):
             return ( 
                 <>
-                    <img src={hulkFullBody} alt="" className='object-cover pb-12'
+                    <img src={hulkFullBody} alt="Hero selected: Hulk" className='object-cover pb-12'
                     />
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-green-600 py-1 bottom-0'></div>
@@ -69,7 +69,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Nova"):
             return ( 
                     <>
-                    <img src={novaFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={novaFullBody} alt="Hero selected: Nova" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-amber-600 py-1 bottom-0'></div>
                     </>
@@ -77,7 +77,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Thor"):
             return ( 
                 <>
-                    <img src={thorFullBody} alt="" className='object-cover pb-12'
+                    <img src={thorFullBody} alt="Hero selected: Thor" className='object-cover pb-12'
                     />
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-cyan-600 py-1 bottom-0'></div>
@@ -86,7 +86,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Ultron"):
             return ( 
                     <>
-                    <img src={ultronFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={ultronFullBody} alt="Hero selected: Ultron" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-slate-600 py-1 bottom-0'></div>
                     </>
@@ -94,7 +94,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("BlackWidow"):
                 return ( 
                         <>
-                        <img src={blackWidowFullBody} alt="" className='object-cover pb-12'/>
+                        <img src={blackWidowFullBody} alt="Hero selected: Black Widow" className='object-cover pb-12'/>
                         <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                         <div className='w-full h-10 absolute bg-neutral-600 py-1 bottom-0'></div>
                         </>
@@ -104,7 +104,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Batman"):
             return ( 
                     <>
-                        <img src={batmanFullBody} alt="" className='object-cover pb-12'/>
+                        <img src={batmanFullBody} alt="Hero selected: Batman" className='object-cover pb-12'/>
                         <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                         <div className='w-full h-10 absolute bg-neutral-600 py-1 bottom-0'></div>
                     </>
@@ -112,7 +112,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Superman"):
             return ( 
                 <>
-                    <img src={supermanFullBody} alt="" className='object-cover pb-12'
+                    <img src={supermanFullBody} alt="Hero selected: Superman" className='object-cover pb-12'
                     />
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-blue-600 py-1 bottom-0'></div>
@@ -121,7 +121,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("WonderWoman"):
             return ( 
                     <>
-                    <img src={wonderWomanFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={wonderWomanFullBody} alt="Hero selected: WonderWoman" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-rose-600 py-1 bottom-0'></div>
                     </>
@@ -129,7 +129,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Flash"):
             return ( 
                     <>
-                    <img src={flashFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={flashFullBody} alt="Hero selected: Flash" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-red-600 py-1 bottom-0'></div>
                     </>
@@ -137,7 +137,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Shazam"):
             return ( 
                 <>
-                    <img src={shazamFullBody} alt="" className='object-cover pb-12'
+                    <img src={shazamFullBody} alt="Hero selected: Shazam" className='object-cover pb-12'
                     />
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-amber-600 py-1 bottom-0'></div>
@@ -146,7 +146,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Darkseid"):
             return ( 
                     <>
-                    <img src={darkFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={darkFullBody} alt="Darkseid" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-teal-700 py-1 bottom-0'></div>
                     </>
@@ -154,7 +154,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Joker"):
             return ( 
                 <>
-                    <img src={jokerFullBody} alt="" className='object-cover pb-12'
+                    <img src={jokerFullBody} alt="Hero selected: Joker" className='object-cover pb-12'
                     />
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-lime-600 py-1 bottom-0'></div>
@@ -163,7 +163,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
         case ("Harley Quinn"):
             return ( 
                     <>
-                    <img src={harleyQuinnFullBody} alt="" className='object-cover pb-12'/>
+                    <img src={harleyQuinnFullBody} alt="Hero selected: Harley Quinn" className='object-cover pb-12'/>
                     <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                     <div className='w-full h-10 absolute bg-fuchsia-600 py-1 bottom-0'></div>
                     </>
@@ -171,7 +171,7 @@ const SelectedCharacter1 = (selectedCharacterName) => {
             case ("Raven"):
                 return ( 
                         <>
-                        <img src={ravenFullBody} alt="" className='object-cover pb-12'/>
+                        <img src={ravenFullBody} alt="Hero selected: Raven" className='object-cover pb-12'/>
                         <p className='text-white text-4xl font-extrabold absolute py-1 bottom-0 -translate-y-6 z-10'>{`${selectedCharacterName.selectedCharacterName}`}</p>
                         <div className='w-full h-10 absolute bg-slate-600 py-1 bottom-0'></div>
                         </>

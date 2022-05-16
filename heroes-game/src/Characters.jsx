@@ -29,65 +29,65 @@ const Characters = ({choosingCharacter, changeCharactersUniverse, marvelUniverse
         ?
         <>
             <label htmlFor="ThorFrame">
-            <img src={thor} alt="" onClick={()=>choosingCharacter("Thor")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+            <img src={thor} alt="Thor Banner" onClick={()=>choosingCharacter("Thor")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             
             <label htmlFor="IronmanFrame">
-                <img src={ironman} alt="" onClick={()=>choosingCharacter("Ironman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={ironman} alt="Ironman banner" onClick={()=>choosingCharacter("Ironman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="BlackWidowFrame">
-                <img src={blackWidow} alt="" onClick={()=>choosingCharacter("BlackWidow")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={blackWidow} alt="BlackWidow banner" onClick={()=>choosingCharacter("BlackWidow")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             
             <label htmlFor="HulkFrame">
-                <img src={hulk} alt="" onClick={()=>choosingCharacter("Hulk")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={hulk} alt="Hulk banner" onClick={()=>choosingCharacter("Hulk")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="captainAmericaFrame">
-                <img src={captainAmerica} alt="" onClick={()=>choosingCharacter("captainAmerica")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={captainAmerica} alt="Captain America banner" onClick={()=>choosingCharacter("captainAmerica")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="UltronFrame">
-                <img src={ultron} alt="" onClick={()=>choosingCharacter("Ultron")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={ultron} alt="Ultron banner" onClick={()=>choosingCharacter("Ultron")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="DoctorDoomFrame">
-                <img src={doctorDoom} alt="" onClick={()=>choosingCharacter("DoctorDoom")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={doctorDoom} alt="Doctor Doom banner" onClick={()=>choosingCharacter("DoctorDoom")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="NovaFrame">
-                <img src={nova} alt="" onClick={()=>choosingCharacter("Nova")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={nova} alt="Nova banner" onClick={()=>choosingCharacter("Nova")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="FenixFrame">
-                <img src={fenix} alt="" onClick={()=>choosingCharacter("Fenix")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={fenix} alt="Fenix banner" onClick={()=>choosingCharacter("Fenix")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
         </>
         :
         <>
             <label htmlFor="batmanFrame">
-                <img src={batman} alt="" onClick={()=>choosingCharacter("Batman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={batman} alt="Batman banner" onClick={()=>choosingCharacter("Batman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             
             <label htmlFor="supermanFrame">
-                <img src={superman} alt="" onClick={()=>choosingCharacter("Superman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={superman} alt="Superman banner" onClick={()=>choosingCharacter("Superman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="wonderWomanFrame">
-                <img src={wonderWoman} alt="" onClick={()=>choosingCharacter("WonderWoman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={wonderWoman} alt="Wonder Woman banner" onClick={()=>choosingCharacter("WonderWoman")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             
             <label htmlFor="flashFrame">
-                <img src={flash} alt="" onClick={()=>choosingCharacter("Flash")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={flash} alt="Flash banner" onClick={()=>choosingCharacter("Flash")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="shazamFrame">
-                <img src={shazam} alt="" onClick={()=>choosingCharacter("Shazam")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={shazam} alt="Shazaaaammm banner" onClick={()=>choosingCharacter("Shazam")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="DarkFrame">
-                <img src={dark} alt="" onClick={()=>choosingCharacter("Darkseid")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={dark} alt="Darkseid banner" onClick={()=>choosingCharacter("Darkseid")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="JokerFrame">
-                <img src={joker} alt="" onClick={()=>choosingCharacter("Joker")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={joker} alt="Joker banner" onClick={()=>choosingCharacter("Joker")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="HarleyQuinnFrame">
-                <img src={harleyQuinn} alt="" onClick={()=>choosingCharacter("Harley Quinn")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={harleyQuinn} alt="Harley Quinn banner" onClick={()=>choosingCharacter("Harley Quinn")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
             <label htmlFor="RavenFrame">
-                <img src={raven} alt="" onClick={()=>choosingCharacter("Raven")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
+                <img src={raven} alt="Raven banner" onClick={()=>choosingCharacter("Raven")} className="border-4 border-slate-400 rounded-lg hover:outline-double hover:outline-gray-50 cursor-pointer"/>
             </label>
         </>
         }

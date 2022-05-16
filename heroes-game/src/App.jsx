@@ -43,7 +43,7 @@ function App() {
         selectMap == false
         ?
         <div className='w-1/3 my-auto relative'>
-          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", '-webkit-text-stroke': '1px #f77a2c'}}>
+          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", WebkitTextStroke: '1px #f77a2c'}}>
             SELECT A CHARACTER
           </h1>
           <Characters 
@@ -54,13 +54,13 @@ function App() {
         </div>
         :
         <div className='w-1/3 my-auto'>
-          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", '-webkit-text-stroke': '1px #f77a2c'}}>
+          <h1 style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", WebkitTextStroke: '1px #f77a2c'}}>
             SELECT A MAP
           </h1>
 
           <ChooseAMap />
 
-          <a style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", '-webkit-text-stroke': '1px #f77a2c', display: 'block', cursor: 'pointer'}}>Confirm your map</a>
+          <a style={{fontFamily: "Titles", textAlign: "center", color: "#faefd8", fontSize: "24pt", WebkitTextStroke: '1px #f77a2c'}} className={'hover:scale-125 block cursor-pointer'}>Confirm your map</a>
         </div>
       }
       
